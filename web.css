@@ -1,0 +1,85 @@
+@charset "utf-8";
+/*documento css*/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td,
+h3 {
+  border: 1px solid black;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-style: dashed;
+  border-width: thick;
+  border-bottom-style: solid;
+  border-color: rgb(51 204 204);
+  font-size: auto;
+  border-right-style: dashed;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008cba;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.contenedor-galeria {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+#border {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(img/border.png) 30 stretch;
+}

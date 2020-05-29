@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+  <title>ilustracion</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Raleway"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <style>
+    body {
+      font-family: "Raleway", Arial, sans-serif;
+    }
+    .w3-row img {
+      margin-bottom: -8px;
+    }
+  </style>
+  
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-content" style="max-width: 1500px;">
+      <!-- Header -->
+      <header class="w3-container w3-xlarge w3-padding-24">
+        <a href="FH Designs.html" class="w3-left w3-button w3-white">MY ART</a>
+        <a href="#about" class="w3-right w3-button w3-white">Acerca de</a>
+      </header>
+
+      <!-- Photo Grid -->
+      <class class="w3-row">
+        <div class="w3-half">
+          <img src="img/FT.jpg" class="w3-hover-grayscale" style="width: 100%;" />
+          <img src="img/felpa.png"  class="w3-hover-grayscale"
+            style="width: 100%;"
+          />
+          <img
+            src="img/yenki.jpg" class="w3-hover-grayscale"
+            style="width: 100%;"
+          />
+        </div>
+
+        <div class="w3-half">
+          <img src="img/leidy.jpg" class="w3-hover-grayscale" style="width: 100%;" />
+          <img src="img/la rubia.png" class="w3-hover-grayscale" style="width: 100%;" />
+          <img src="img/cli 1.jpg" class="w3-hover-grayscale" style="width: 100%; height: 1081px;" />
+        </div>
+        </class>
+
+      <!-- End Page Content -->
+    </div>
+
+    <!-- Footer / About Section -->
+    <footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+      <h2>Acerca de</h2>
+      <img
+        src="img/FH.png" class="w3-hover-opacity"
+        class="w3-image w3-padding-32"
+        width="300"
+        height="300"
+      />
+
+      <form action="datos.php" method="POST"
+      style="margin: auto; width: 60%;"
+      action="/action_page.php"
+      target="_blank"
+    >
+        <p>
+          Crear un logo o una ilustración con nosotros, te dará múltiples
+          beneficios; como respeto a derecho de privacidad, en los cuales se
+          incluye si el cliente no quiere que difundan o publiquen su trabajo
+          realizado con nosotros en algunas de nuestras redes sociales. Y
+          también el cliente tiene derecho a reclamar una ilustración sin marca
+          de agua, a la imagen que se le agrega la marca de agua es a la que
+          publicamos en nuestras redes sociales; en cada una de nuestras
+          imagenes le ofrecemos una garantia de 5 dias para hacerle cualquier
+          tipo de modificacion gratuitamente "dentro de ese periodo", ya fuera
+          de ese tiempo cualquier tipo de modificacion que el cliente desee se
+          le cobrara una cuota.
+        </p>
+        <p class="w3-large w3-text-pink">No dudes en contactarnos!</p>
+        <div class="w3-section">
+          <label><b>Nombre</b></label>
+          <input class="w3-input w3-border" type="text" name="name" />
+        </div>
+        <div class="w3-section">
+          <label><b>Email</b></label>
+          <input class="w3-input w3-border" type="text" name="email" />
+        </div>
+        <div class="w3-section">
+          <label><b>Mensaje</b></label>
+          <input class="w3-input w3-border" type="text" name="message" />
+        </div>
+        <button type="submit" class="w3-button w3-block w3-dark-grey">
+          Enviar
+        </button>
+      </form>
+      <?php
+      include("datos.php");
+      ?>
+      <br />
+      <p>
+        Creado por
+        <a href="FH Designs.html" target="_blank" class="w3-hover-text-green"
+          >FH Designs</a
+        >
+      </p>
+    </class>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script
+        type="text/javascript"
+        src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ec064a4f941c8df"
+      ></script>
+      </footer>
+      <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ec064a4f941c8df"></script>
+  </body>
+</html>
